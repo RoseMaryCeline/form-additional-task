@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8"/>
+    <title>Task 3</title>
+    <script type="text/JavaScript" src="./js/app.js"></script>
+  </head>
+  <body>
+    <!--formularz-->
+  <form>
+    <span>Przedmiot:</span>
+    <input class="item"></input>
+    <span>Ilość:</span>
+    <input class="quantity"></input>
+    <span>Cena:</span>
+    <input class="price"></input>
+  <br>
+  </form>
+  <button class="addItem" > Dodaj przedmiot<button/>
+  <table border="1px solid black">
+    <tr> <!--kolumny-->
+      <th></th>
+      <th>Przedmiot:</th>
+      <th>Ilość:</th>
+      <th>Cena:</th>
+      <th>Kwota:</th>
+    </tr>
+    <!--<tr>//tu juz uzytkownik sobie bedzie sam wpisywal swoje itemy
+      <td></td>
+      <td>Dlugopis</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Pioro</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  -->
+      <tr id="sumOfAllItems">
+        <td colspan=4>Łączna kwota:</td>
+        <td></td>
+      </tr>
+  </table>
+</body>
+</html>
